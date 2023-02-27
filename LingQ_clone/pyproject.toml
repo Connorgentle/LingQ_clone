@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "LingQ-clone"
+version = "0.1.0"
+description = ""
+authors = ["Connor Gentle <gentleconnor123@gmail.com>"]
+readme = "README.md"
+packages = [{include = "streamlit_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.18.1"
+seaborn = "^0.12.2"
+streamlit-player = "^0.1.5"
+youtube-transcript-api = "^0.5.0"
+st-annotated-text = "^3.0.0"
+streamlit-aggrid = "^0.3.3"
+reverso-context-api = "^0.5"
+numpy = "^1.24.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
